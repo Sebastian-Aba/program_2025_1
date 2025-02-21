@@ -10,5 +10,55 @@
         <input type="text" name="q">
         <button type="submit">Buscar</button>
     </form>
+    <br>
+    <br>
+    <br>
+    <h1>Datos</h1>
+    <form action="#">
+        <label>Nombre:</label>
+        <input type="text" name="nombre">
+        <div>
+            <label>Apellido:</label>
+            <input type="text" name="apellido" value="Gomez" disabled>
+        </div>
+        <div>
+            <label>Email:</label>
+            <input type="email" name="correo" placeholder="example@gmail.com" required>
+        </div>
+        <div>
+            <label>Edad:</label>
+            <input type="number" name="edad" value="18" min="1" max="140">
+        </div>
+        <fieldset>
+            <label>fecha de matricula</label>
+            <input type="date" name="fechaMatricula" >
+            <input type="datetime" name="fechaMateculaDos">
+            <input type="datetime-local" name="fechaMateculaTres">
+        </fieldset>
+        <div>
+            <label>Password</label>
+            <input type="password" name="pwd">
+        </div>
+        <div>
+            <label>Clacificacion</label>
+            <label>
+                <input type="radio" name="clasificacion" value="A">Opcion 1
+            </label>
+            <label>
+                <input type="radio" name="clasificacion" value="B">Opcion 2
+            </label>
+            <label>
+                <input type="radio" name="clasificacion" value="C">Opcion 3
+            </label>
+        </div>
+        <div>
+            <label>Ciudad</label>
+            <select name="ciudad">
+                <option>Duitama</option>
+                <option>Tunja</option>
+                <option>Sogamoso</option>
+            </select>
+        </div>
+    </form>
 </body>
 </html>
